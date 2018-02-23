@@ -1,3 +1,5 @@
+-<?php
+
 function Redirect($url, $permanent = false)
 {
     if (headers_sent() === false)
@@ -8,4 +10,9 @@ function Redirect($url, $permanent = false)
     exit();
 }
 
-Redirect('http://www.google.com/', false);
+Redirect('https://www.google.com/', false);
+
+ #-echo "<h1>Openshift Workshop v2.0 - Ermano Nunes =)</h1> ";
+ #-echo $_SERVER['SERVER_ADDR'];
+ -?>
+
